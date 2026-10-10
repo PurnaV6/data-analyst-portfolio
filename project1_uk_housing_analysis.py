@@ -1,6 +1,6 @@
 """
 =======================================================================
-PROJECT 1: UK Housing Market Analysis
+PROJECT: UK Housing Market Analysis
 =======================================================================
 Skills Demonstrated:
   - Exploratory Data Analysis (EDA)
@@ -201,4 +201,3 @@ growth = (df_clean[df_clean["year"] == 2024]["price"].median() /
           df_clean[df_clean["year"] == 2018]["price"].median() - 1) * 100
 print(f"  Overall median price growth: {growth:.1f}%")
 
-print("\n✅  Project 1 complete.")
