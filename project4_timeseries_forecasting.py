@@ -1,6 +1,6 @@
 """
 =======================================================================
-PROJECT 4: Time Series Forecasting — Retail Sales
+PROJECT: Time Series Forecasting — Retail Sales
 =======================================================================
 Skills Demonstrated:
   - Time series decomposition (trend, seasonality, residuals)
@@ -244,4 +244,3 @@ future_df["forecast_sales"] = future_df["forecast_sales"].round(-2)
 print(future_df.to_string(index=False))
 print(f"\n  Predicted total (12m): £{future_fc.sum():,.0f}")
 
-print("\n✅  Project 4 complete.")
