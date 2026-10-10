@@ -1,6 +1,6 @@
 """
 =======================================================================
-PROJECT 3: E-Commerce Sales & Customer Segmentation
+PROJECT: E-Commerce Sales & Customer Segmentation
 =======================================================================
 Skills Demonstrated:
   - SQL-style data manipulation with pandas
@@ -257,4 +257,3 @@ print(rfm.groupby("segment")[["recency","frequency","monetary"]].agg({
     "monetary":  ["median", "sum"]
 }).round(0).to_string())
 
-print("\n✅  Project 3 complete.")
