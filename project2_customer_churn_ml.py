@@ -1,6 +1,6 @@
 """
 =======================================================================
-PROJECT 2: Customer Churn Prediction — Telecom
+PROJECT: Customer Churn Prediction — Telecom
 =======================================================================
 Skills Demonstrated:
   - Feature engineering & preprocessing pipelines
@@ -244,4 +244,3 @@ print(f"  Churners correctly flagged : {churners_caught}")
 print(f"  Est. customers retained (30%): {saved_customers}")
 print(f"  Monthly revenue protected  : £{monthly_savings:,.0f}")
 
-print("\n✅  Project 2 complete.")
